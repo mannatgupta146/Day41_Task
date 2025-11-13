@@ -1,77 +1,80 @@
 # Day 41 Task | Cohort 2.0
 
-This file contains all the **JavaScript exercises and experiments** I completed as part of **Day 39** in **Sheryians Coding School Cohort 2.0**.  
-It focuses on **basic functions**, **arrays**, and **objects**, helping to strengthen the foundational understanding of JavaScript syntax and logic through simple, beginner-friendly problems.
+This file contains all the **JavaScript exercises and experiments** I completed as part of **Day 41**.  
+It focuses on **higher-order functions**, **pure and impure functions**, **object destructuring**, **array methods**, and **object behavior with freeze and seal**.
 
-📌 **About the Day 39 Task**  
-Day 39 was centered around learning and practicing **core JavaScript fundamentals** like functions, parameters, arrays, and object manipulation.  
-The goal was to build a strong base in writing, calling, and structuring functions, while also experimenting with modern concepts like **default parameters**, **rest parameters**, and **IIFEs**.
+📌 **About the Day 41 Task**  
+Day 41 was centered around learning and practicing **functional thinking**, **logic building**, and **intermediate JavaScript concepts** like higher-order functions, functional purity, destructuring, and ES6 array methods.
 
 ✨ **Task Description**
 
-| **Feature** | **Description** |
-|--------------|-----------------|
-| **Functions** | Created reusable blocks of code for printing, adding, and handling values. |
-| **Default Parameters** | Used default arguments in functions for flexible input handling. |
-| **Rest Parameters** | Implemented rest parameters to handle unlimited numbers dynamically. |
-| **Nested Functions** | Demonstrated scope and closure using functions inside functions. |
-| **Arrays** | Practiced adding, removing, and iterating through array elements. |
-| **Objects** | Created and accessed objects using `for...in` loops to display key values. |
-| **IIFE (Immediately Invoked Function Expression)** | Executed functions instantly upon definition. |
-| **setTimeout()** | Introduced asynchronous execution using time delay functions. |
+| Feature | Description |
+|--------|-------------|
+| Higher-Order Functions | Executed a function multiple times inside another function. |
+| Pure vs Impure Functions | Understood predictable output vs side-effect based functions. |
+| Object Destructuring | Extracted properties directly inside function parameters. |
+| Normal vs Arrow Functions | Observed how `this` behaves differently in both cases. |
+| map() | Created a new array of squared values. |
+| filter() | Extracted even numbers from an array. |
+| some() and every() | Tested conditions on an array of strings. |
+| Object.freeze() and Object.seal() | Checked how objects behave when changes are restricted. |
+| Nested Objects | Accessed deeply nested properties. |
 
 🛠️ **Technologies Used**  
-- **JavaScript (ES6+)** – For functions, arrays, and objects  
-- **Browser Console / VS Code** – For testing and execution  
-- **Node.js (optional)** – For running JS scripts locally  
+- JavaScript (ES6+)  
+- VS Code / Browser Console  
+- Node.js (optional)
 
-## 🧩 Practice Questions
 
-### Level 1 – Basic Function, Array and Object Code Tasks (Easy)
+## 🧩 Practice Questions – Level 2 (Functional Thinking and Logic)
 
-1. **Print “Hello JavaScript” using a simple function**  
-   Demonstrates function creation and execution.
+### 1. Higher-order function  
+Created `runTwice(fn)` to execute a function two times.
 
-2. **Create a function that adds two numbers**  
-   Uses parameters and returns/logs the sum.
+### 2. Pure and Impure functions  
+A pure function that always returns the same output for the same input, and an impure function using a global variable.
 
-3. **Use a default parameter `name = "Guest"`**  
-   Prints a greeting message dynamically.
+### 3. Object destructuring inside parameters  
+Extracted `name` and `age` directly inside function arguments.
 
-4. **Add unlimited numbers using rest parameters**  
-   Uses `...nums` to handle variable arguments and calculate total.
+### 4. Normal vs Arrow function behavior  
+Demonstrated how `this` changes inside normal functions but not in arrow functions used as object methods.
 
-5. **Implement an IIFE that prints a message instantly**  
-   Demonstrates Immediately Invoked Function Expressions.
+### 5. Using map()  
+Generated a new array where each number was squared.
 
-6. **Create a nested function accessing outer variable**  
-   Shows the concept of lexical scope and closure.
+### 6. Using filter()  
+Filtered and returned only even numbers from an array.
 
-7. **Manipulate an array of fruits**  
-   Removes the first element and adds one at the end.
+### 7. Using some()  
+Checked if at least one name is longer than 3 characters.
 
-8. **Use a loop to print array elements**  
-   Uses a `for` loop to iterate through an array.
+### 8. Using every()  
+Checked if all names are longer than 3 characters.
 
-9. **Create and iterate through an object**  
-   Prints all key values using `for...in` loop.
+### 9. Object.freeze() and Object.seal()  
+Observed how sealed and frozen objects restrict modifications.
 
-10. **Use `setTimeout()` to display a message after 2 seconds**  
-    Introduces asynchronous JavaScript and callback execution.
+### 10. Accessing nested objects  
+Accessed the `city` value from a nested object.
 
-📖 **Learning Outcome**  
-Through this task, I learned how to:  
-- Write and execute **functions** effectively  
-- Use **default** and **rest parameters** for flexibility  
-- Understand **scope** and **closure** using nested functions  
-- Manipulate **arrays** and **objects** using built-in methods and loops  
-- Implement **IIFEs** for immediate execution  
-- Apply **setTimeout()** for asynchronous behavior  
-- Build a solid foundation for advanced JavaScript concepts  
 
-🌟 **Acknowledgement**  
-This task was completed as part of **Sheryians Coding School Cohort 2.0** under the guidance of **Harsh Bhaiya**.  
+## 📖 Learning Outcome  
+Through this task, I learned how to:
 
-It helped me strengthen my understanding of **JavaScript basics**, laying the groundwork for more complex problem-solving and real-world coding scenarios.
+- Use **higher-order functions** to run logic multiple times  
+- Understand the difference between **pure** and **impure** functions  
+- Use **object destructuring** inside parameters  
+- Work with powerful array methods like **map**, **filter**, **some**, and **every**  
+- Understand how **this** behaves differently in normal vs arrow functions  
+- See how JavaScript objects behave with **seal** and **freeze**  
+- Access values inside **nested objects**  
+
+These exercises increased my understanding of **functional programming**, **immutability**, and **modern ES6 concepts**.
+
+#
+# 🌟 Acknowledgement  
+This task helped me improve my **JavaScript logic, functional thinking, and ES6 concepts**.  
+I am grateful for the consistent guidance and support that helps me learn and grow every day.
 
 ---
